@@ -263,6 +263,12 @@ header{
   border: none;
   outline: none;
 }
+.fleft a{
+  padding-right: 10px;
+}
+.fleft a:hover{
+  color: rgb(218, 197, 170);
+}
 .fleft button{
   width: 20%;
   height: 40px;

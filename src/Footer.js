@@ -6,8 +6,8 @@ import React from 'react'
             <div className="footer">
                 <div className="fleft">
                     <h1><span>Follow Us</span></h1>
-                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                    <a href="https://www.linkedin.com/" target="_blank">Linked In</a>
+                    <a href="https://www.instagram.com/" >Instagram</a>
+                    <a href="https://www.linkedin.com/"> Linked In</a>
                     <input type="text" placeholder="Search ..."></input>
                     <button>Search</button>
                 </div>
