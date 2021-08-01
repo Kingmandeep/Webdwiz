@@ -1,13 +1,779 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  background-color: rgb(228, 248, 241);
+  font-family: 'Roboto', sans-serif;
+}
+/* Header */
+header{
+  height: 10vh;
+  background-color: rgb(235, 233, 233);
+  letter-spacing: 0.5px;
+  overflow: hidden;
+  position: fixed; 
+  width: 100%;
+}
+.hleft{
+  float: left;
+  width: 40%;
+  cursor: pointer;
+}
+.hleft img{
+  width: 100px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.hleft p{
+  margin-top: 0px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+.hright{
+  float:left;
+}
+.hright ul{
+  text-align: center;
+  padding-top: 18px;
+  letter-spacing: 2px;
+}
+.hright li,.main_nav{
+  display: inline;
+  padding-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(97, 96, 96);
+ list-style: none;
+ text-decoration: none;
+  cursor: pointer;
+}
+.main_nav:hover{
+  color: rgb(31, 31, 31);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Main box 1 */
+.main1{
+  height: 75vh;
+
+  background-image: url("https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG9mZmljZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.m1box1{
+  text-align: center;
+  width: 60%;
+  padding-top: 20vh;
+  padding-left: 40vh;
+}
+.m1box1 h1{
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: rgb(97, 96, 96);
+}
+.m1box1 p{
+  color: rgb(71, 70, 70);
+  letter-spacing: 1px;
+}
+.m1box1 span{
+  color: rgb(25, 167, 25);
+}
+.m1box1 button{
+  width: 30%;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: transparent;
+  color: rgb(250, 248, 248);
+  border: 3px solid rgb(238, 111, 65);
+  cursor: pointer;
+}
+.main_contact{
+  color: rgb(112, 108, 107);
+  text-decoration: none;
+ 
+}
+.main_contact:hover{
+  color: #fff;
+}
+.m1box1 button:hover{
+  background-color: rgb(248, 99, 45);
+  color: #fff;
+}
+/* Main 2 */
+.main2{
+  background-color: rgb(228, 248, 241);
+  height: 80vh;
+}
+.main2 h2{
+  padding: 10px 40px;
+  letter-spacing: 2px;
+  color: rgb(71, 70, 70);
+  text-align: left;
+}
+.main2 span{
+  padding-bottom: 5px;
+  border-bottom: 4px solid grey;
+  border-radius: 10px;
+}
+.m2{
+  width: 80%;
+  text-align: center;
+  margin-left: 18%;
+}
+.m2box2{
+  width: 25%;
+  margin-top: 20px;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  float: left;
+  margin-left: 2%;
+  height: 380px;
+  cursor: pointer;
+  text-align: center;
+}
+.m2box2:hover{
+  margin-top: 10px;
+}
+.m2box2 img{
+  width: 100%;
+  height: 220px;
+}
+.m2box2 h3{
+  color: rgb(71, 70, 70);
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.m2box2 p{
+  width: 90%;
+  text-align: center;
+  padding-left: 10px;
+  color: rgb(31, 31, 31);
+}
+/* Main 3 */
+.main3{
+  height: 50vh;
+  background-color: #fff;
+  background-image: url("https://wallup.net/wp-content/uploads/2017/11/23/526001-computer-keyboards-748x421.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.qlm{
+  width: 60%;
+  margin-left: 20%;
+  justify-content: center;
+}
+.quality{
+  margin-top: 0px;
+  padding-top: 50px;
+}
+.quality h2{
+  margin-bottom: 0px;
+  color: rgb(202, 199, 199);
+}
+.quality span{
+  border-bottom: 4px solid rgb(71, 71, 71);
+}
+.quality h1{
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: rgb(230, 228, 228);
+}
+.ql {
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+ letter-spacing: 1.5px;
+  float: left;
+  padding: 0 12px;
+}
+.ql h1{
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+.ql p{
+  margin-top: 0px;
+  font-size: 20px;
+}
+.main4{
+  height: 60vh;
+  margin-top: 50px;
+  
+}
+.m4img{
+  width: 40%;
+  margin-left: 10%;
+  float: left;
+}
+.m4img img{
+  width: 80%;
+}
+.m4box4{
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+.m4box4 h1{
+  margin-top: 0px;
+  color: rgb(71, 70, 70);
+  letter-spacing: 1.5px;
+  font-size: 35px;
+}
+.m4box4 p{
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  font-size: 18px;
+}
+.m4box4 ul{
+  text-align: left;
+}
+.m4box4 li{
+  
+  padding-top: 10px ;
+  list-style: none;
+}
+/* footer */
+.footer{
+  height: 50vh;
+  background-color: rgb(31, 31, 31);
+}
+.fleft{
+  width: 30%;
+  margin-left: 15%;
+  padding-top: 20px;
+  float: left;
+}
+.fleft span{
+  letter-spacing: 1.5px;
+  color: #fff;
+  border-bottom: 4px solid #fff;
+}
+.fleft input{
+  /* float: left; */
+  width: 70%;
+  height: 35px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+.fleft button{
+  width: 20%;
+  height: 40px;
+  padding-top: 5px;
+  background-color: rgb(35, 65, 163);
+  font-size: 14px;
+  cursor: pointer;
+}
+.fright{
+  width: 30%;
+  margin-left: 15%;
+  padding-top: 20px;
+  float: left;
+  color: #fff;
+}
+.fright span,a{
+  color: #fff;
+  font-size: 20px;
+}
+.flast{
+  float: none;
+  padding-top: 40vh;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+}
+.flast span{
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 3px solid #fff;
+}
+/* About  Us*/
+.about{
+  height: 180vh;
+  
+}
+.aboutbox1{
+  height: 80vh;
+}
+.aboutbox1 h1{
+  padding-top: 120px;
+}
+.aboutbox1 span,.aboutbox2 span{
+  border-bottom: 4px solid rgb(71, 70, 70);
+  border-radius: 10px;
+  margin-left: 5%;
+  color: rgb(71, 71, 71);
+}
+.aboutbox1 img{
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 10%;
+  float: left;
+  margin-right: 30px;
+}
+.aboutbox2 img{
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 40%;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.team{
+  float: left;
+  margin-right: 10%;
+}
+.aboutbox2 h2{
+  text-align: center;
+  margin-left: 70%;
+}
+.aboutbox1 p,.aboutbox2 p{
+  width: 90%;
+  margin-top: 70px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+}
+.aboutbox2 {
+  height: 90vh;
+}
+/*Contact */
+.contact{
+  background-image: url("https://lh3.googleusercontent.com/proxy/WP77YeGlneptTeu-MXxNlftdkw5nE4XdIWmNM4YwIBZID9N7lzOm2JnL2kMXCdeHPnUt9abzwORzubsOJ-peceqAGpCwkuUzYdt8vq4p_PApu_m3BAE");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contacthead{
+  padding-top: 100px;
+  padding-left: 7%;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+.contacthead span{
+  border-bottom: 4px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.contactbox{
+  margin-top: 50px;
+  margin-left: 15%;
+  color: #fff;
+}
+.contactbox h2{
+  margin-bottom: 0px;
+}
+.contactbox input{
+  width: 30%;
+  height: 35px;
+  padding-left:10px ;
+  background: transparent;
+  border :2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+}
+.contactbox textarea{
+  width: 30%;
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background: transparent;
+  border :2px solid #fff;
+  color: #fff;
+  resize: none;
+  font-size: 18px;
+}
+.contactbox button{
+  width: 10%;
+  text-align: center;
+  font-size: 18px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.contactbox button:hover{
+ background-color: rgb(212, 209, 209);
+}
+/* Media query*/
+@media screen and (max-width: 1280px  ) {
+ 
+  .hleft{
+    width: 20%;
+  }
+  .hleft img{
+    width: 80px;
+  }
+  .hleft p{
+    font-size: 10px;
+    text-align: left;
+  }
+  .hright ul,.main_nav{
+    margin-left: 0px;
+  }
+  .hright li,.main_nav{
+    font-size: 16px;
+
+  }
+  
+  .m1box1 h1{
+    font-size: 24px;
+  }
+  .m1box1 button{
+    width: 50%;
+  }
+  .main2{
+    height: 100vh;
+  }
+  .main2 h2{
+    padding-left: 12px;
+  }
+  .m2{
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+  }
+  .m2box2{
+    width: 24%;
+    margin-left: 8%;
+  }
+  .main3{
+    height: 70vh;
+  }
+  .qlm{
+    width: 80%;
+    margin-left: 15%;
+  }
+  .quality{
+    padding-top: 40px;
+  }
+  .quality h2{
+    font-size: 22px;
+  }
+  .quality h1{
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .ql {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+ 
+  .main4{
+    height: 70vh;
+    margin-top: 50px;
+    
+  }
+  
+  .m4img img{
+    width: 90%;
+  }
+  .m4box4{
+    width: 90%;
+    float: none;
+    margin-left: 4%;
+  }
+  .m4box4 h1{
+    margin-top: 10px;
+  }
+  .m4box4 p{
+    font-size: 16px;
+  }
+  .m4box4 li{
+    padding-top: 6px ;
+    list-style:circle;
+  }
+  .footer{
+    height: 50vh;
+  }
+  .fleft{
+    width: 40%;
+    margin-left: 5%;
+    padding-top: 10px;
+  }
+ 
+  .fleft input{
+    font-size: 16px;
+  }
+  .fleft button{
+    width: 40%;
+  }
+  .fright{
+    width: 40%;
+    margin-left: 5%;
+  }
+  .fright span,a,h1{
+    color: #fff;
+    font-size: 16px;
+  }
+  .flast{
+    float: none;
+    padding-top: 40vh;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+  }
+  .flast span{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 3px solid #fff;
+  }
+  .about{
+    height: 180vh;
+    
+  }
+  .aboutbox1{
+    height: 100vh;
+  }
+  .aboutbox1 h1{
+    text-align: left;
+  }
+  .aboutbox1 span,.aboutbox2 span{
+  font-size: 20px;
+  }
+  .aboutbox1 img{
+    margin-left: 5%;
+    width: 280px;
+    float: none;
+  }
+  .aboutbox2 img{
+    width: 240px;
+    margin-left: 10%;
+  }
+  .aboutbox2 h2{
+    text-align: center;
+    margin-left: 30%;
+  }
+  .aboutbox1 p,.aboutbox2 p{
+    margin-left: 5%;
+  }
+  .aboutbox2 {
+    height: 20vh;
+  }
+   
+  .contacthead span{
+    font-size: 20px;
+  }
+  .contactbox input{
+    width: 50%;
+    font-size: 14px;
+  }
+  .contactbox textarea{
+    width: 50%;
+  }
+  .contactbox button{
+    width: 20%;
+  }
+  .m2box2 img{
+    height: 200px;
+  }
+  .m2box2 p{
+    font-size: 14px;
+  }
+
+}
+@media screen and (max-width: 800px ) {
+ 
+  .hleft{
+    width: 20%;
+  }
+  .hleft img{
+    width: 80px;
+  }
+  .hleft p{
+    font-size: 10px;
+    text-align: center;
+  }
+  .hright ul,.main_nav{
+    margin-left: 0px;
+  }
+  .hright li,.main_nav{
+    font-size: 16px;
+
+  }
+  .main1{
+    height: 70vh;
+  }
+  .m1box1{
+    width: 80%;
+    padding-top: 20vh;
+    padding-left: 10%;
+  }
+  .m1box1 h1{
+    font-size: 20px;
+  }
+  .m1box1 button{
+    width: 60%;
+    font-size:18px;
+  }
+  .main2{
+    height: 200vh;
+  }
+  .main2 h2{
+    padding-left: 10px;
+    padding-top: 0px;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .m2{
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+  
+  }
+  .m2box2{
+    width: 70%;
+    float: none;
+    margin-left: 13%;
+  }
+  .main3{
+    height: 100vh;
+    text-align: center;
+  }
+  .qlm{
+    width: 60%;
+    margin-left: 20%;
+    justify-content: center;
+  }
+  .quality{
+    padding-top: 20px;
+  }
+  .quality h2{
+    font-size: 18px;
+  }
+  .quality h1{
+    font-size: 20px;
+  }
+  .ql {
+    margin-top: 25px;
+    text-align: left;
+  }
+  .ql h1{
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+  .ql p{
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .main4{
+    height: 125vh;
+    margin-top: 50px;
+    
+  }
+  .m4img{
+    width: 95%;
+    margin-left: 5%;
+    float: none;
+  }
+  .m4img img{
+    width: 90%;
+  }
+  .m4box4{
+    width: 90%;
+    float: none;
+    margin-left: 4%;
+  }
+  .m4box4 h1{
+    margin-top: 10px;
+  }
+  .m4box4 p{
+    font-size: 16px;
+  }
+  .m4box4 li{
+    padding-top: 6px ;
+    list-style:circle;
+  }
+  .footer{
+    height: 50vh;
+  }
+  .fleft{
+    width: 40%;
+    margin-left: 5%;
+    padding-top: 10px;
+  }
+ 
+  .fleft input{
+    font-size: 16px;
+  }
+  .fleft button{
+    width: 40%;
+  }
+  .fright{
+    width: 40%;
+    margin-left: 5%;
+  }
+  .fright span,a,h1{
+    color: #fff;
+    font-size: 16px;
+  }
+  .flast{
+    float: none;
+    padding-top: 40vh;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+  }
+  .flast span{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 3px solid #fff;
+  }
+  .about{
+    height: 230vh;
+    
+  }
+  .aboutbox1{
+    height: 130vh;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .aboutbox1 h1{
+    text-align: left;
+  }
+  .aboutbox1 span,.aboutbox2 span{
+  font-size: 20px;
+  }
+  .aboutbox1 img{
+    margin-left: 5%;
+    width: 280px;
+    float: none;
+  }
+  .aboutbox2 img{
+    width: 250px;
+    margin-left: 20%;
+  }
+  .aboutbox2 h2{
+    text-align: center;
+    margin-left: 30%;
+  }
+  .aboutbox1 p,.aboutbox2 p{
+    margin-left: 5%;
+  }
+  .aboutbox2 {
+    height: 90vh;
+  }
+   
+  .contacthead span{
+    font-size: 20px;
+  }
+  .contactbox input{
+    width: 50%;
+    font-size: 14px;
+  }
+  .contactbox textarea{
+    width: 50%;
+  }
+  .contactbox button{
+    width: 20%;
+  }
+  
 }
