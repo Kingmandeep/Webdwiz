@@ -1,16 +1,14 @@
 import React from 'react'
-
-const Main3 = () => {
+import "./main4.css";
+const Main4 = () => {
     return (
         <>
-        <div className="main3">
-            <div className="quality">
+            <div className="main3">
+          
             <h2><span>MEET US BETTER</span></h2>
                 <h1><span>OUR QUALITY  IN NUMBERS</span></h1>
-            </div>
             <div className="qlm">
 
-           
             <div className="ql">
                 <h1>1000 +</h1>
                 <p>SOCIAL REACH</p>
@@ -33,4 +31,5 @@ const Main3 = () => {
         </>
     )
 }
-export  default Main3;
+
+export  default Main4;

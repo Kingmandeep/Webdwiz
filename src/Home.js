@@ -1,21 +1,24 @@
 import React from 'react'
-import Footer from './Footer'
-import Header from './Header'
-import Main1 from './Main1'
-import Main1b from './Main1b'
-import Main2 from './Main2'
-import Main3 from './Main3'
-import Main4 from './Main4'
+import Footer from './footer/Footer'
+import Main1 from './main1/Main1'
+import Main2 from './main2/Main2'
+import Main3 from './main3/Main3'
+import Main4 from './main4/Main4'
+import Main5 from './main5/Main5'
+import Navbar from './Nav/Navbar'
+import Service1 from './service1/Service1'
  const Home = () => {
     return (
         <>
-             <Header/>
+        <Navbar/>
             <Main1/>
-            <Main1b/>
             <Main2/>
-            <Main3/>
+            {/* <Main3/> */}
+            <Service1/>
             <Main4/>
+            <Main5/>
             <Footer/>
+            
         </>
     )
 }

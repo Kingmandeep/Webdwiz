@@ -1,6 +1,6 @@
 import React from 'react'
-
- const Main4 = () => {
+import "./main5.css";
+ const Main5 = () => {
     return (
         <>
             <div className="main4">
@@ -23,4 +23,4 @@ import React from 'react'
         </>
     )
 }
-export default Main4;
+export default Main5;

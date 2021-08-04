@@ -1,27 +1,16 @@
 import React from 'react'
+import About1 from './about1/About1';
+import Contactus from './contact/Contactus'
+import Footer from './footer/Footer';
+import Navbar from './Nav/Navbar';
 
 const Contact = () => {
     return (
         <>
-            <div className="contact">
-                <div className="contacthead">
-                    <h1><span>Contact Us</span></h1>
-                </div>
-                <div className="contactbox">
-                <form>
-
-              
-                <h2>Name (required)</h2>
-                <input type="text" required ></input>
-                <h2>Email (required)</h2>
-                <input type="email"  required></input>
-                <h2>Message</h2>
-                <textarea></textarea>
-                <br></br>
-                <button>Submit</button>
-                </form>
-                </div>
-            </div>
+        <Navbar/>
+        <About1/>
+            <Contactus/>
+            <Footer/>
         </>
     )
 }
